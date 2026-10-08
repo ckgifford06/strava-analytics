@@ -1,0 +1,31 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        pace_s_per_mile   R-squared:                       0.163
+Model:                            OLS   Adj. R-squared:                  0.148
+Method:                 Least Squares   F-statistic:                     10.78
+Date:                Thu, 08 Oct 2026   Prob (F-statistic):           1.74e-09
+Time:                        17:18:11   Log-Likelihood:                -1338.1
+No. Observations:                 282   AIC:                             2688.
+Df Residuals:                     276   BIC:                             2710.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept              513.8970     11.287     45.528      0.000     491.677     536.117
+temperature_f           -0.0166      0.208     -0.080      0.936      -0.426       0.393
+dew_point_f              0.2339      0.215      1.090      0.276      -0.188       0.656
+wind_speed_mph          -0.5803      0.495     -1.172      0.242      -1.555       0.394
+miles                    2.3920      1.078      2.219      0.027       0.270       4.514
+days_since_first_run    -0.0479      0.007     -6.740      0.000      -0.062      -0.034
+==============================================================================
+Omnibus:                       26.982   Durbin-Watson:                   0.766
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               76.240
+Skew:                          -0.378   Prob(JB):                     2.78e-17
+Kurtosis:                       5.432   Cond. No.                     7.95e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.95e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
