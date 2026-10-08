@@ -117,11 +117,11 @@ Not yet. My current fitness projects to a marathon about 55 minutes slower than 
 - **The regression is correlational.** It shows associations, not causes. Runs are not randomly assigned to weather: I may run slower on purpose in heat, or pick different routes by season.
 - **Sample size and independence.** 282 runs is small for separating correlated weather variables. Residuals are autocorrelated (Durbin-Watson 0.77), so the standard errors are likely understated, and the true uncertainty is wider than shown.
 - **Missing weather.** 45 runs have no GPS coordinates, and runs from the last 7 days are skipped until the weather archive covers them.
-- **Qualifying standard.** The 2:55:00 target is the Boston Athletic Association standard for men aged 18 to 34 as I understand it. It must be verified against the current BAA standards and the age group I will be in on race day.
+- **Qualifying standard.** The 2:55:00 target is the Boston Athletic Association standard for men aged 18 to 34 as I understand it. It must be verified against the current BAA standards and the age group I will be in on race day, which will probably be even lower considering it gets more selective year after year.
 
 ## Setup
 
-Requirements: Python 3, a Strava account, and a PostgreSQL database (this project uses a free Supabase project).
+Requirements: Python 3, a Strava |PREMIUM| account, and a PostgreSQL database (this project uses a free Supabase project).
 
 1. **Install dependencies**
    ```
