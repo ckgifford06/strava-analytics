@@ -2,6 +2,10 @@
 
 An end-to-end analytics pipeline on my own Strava running data: extract from the Strava API, load into PostgreSQL, enrich with historical weather, and analyze with SQL views and Python.
 
+CHECK OUT MY DASHBOARD HERE: [Charles Gifford: Marathon Readiness](https://public.tableau.com/views/CharlesGiffordMarathonReadiness/MarathonReadiness?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+
+
 ## The question
 
 Boston is one of the few marathons you have to qualify for. My goal is to run it in April 2028, which means running a qualifying time first. I want an honest, data-driven answer to three questions:
